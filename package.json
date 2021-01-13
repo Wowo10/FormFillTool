@@ -1,5 +1,5 @@
 {
-  "dependencies": {
+  "dev-dependencies": {
     "@types/chrome": "^0.0.128"
   },
   "scripts": {

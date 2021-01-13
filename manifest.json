@@ -27,6 +27,7 @@
 	"permissions": [
 		"activeTab",
 		"declarativeContent",
+		"contextMenus",
 		"storage"
 	],
 	"version": "1.0"
