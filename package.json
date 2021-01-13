@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@types/chrome": "^0.0.128"
+  },
+  "scripts": {
+    "clean": "rm -fr dist/*",
+    "copy-files": "cp src/*.html ./dist && cp manifest.json ./dist/manifest.json && cp -r images ./dist",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "postbuild": "npm run copy-files",
+    "prewatch": "npm run clean && npm run copy-files",
+    "watch": "tsc -w"
+  }
+}
